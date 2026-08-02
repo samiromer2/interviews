@@ -51,3 +51,54 @@ FROM employees e
 LEFT JOIN sales s ON e.id = s.employeeId
 GROUP BY e.id, e.name
 ORDER BY e.id;
+
+
+
+
+NAV CANADA – Software Developer Interview Experience (2026)
+
+The interview was mostly focused on problem-solving, SQL, algorithms, C++, and reasoning about existing code rather than trivia.
+
+Questions I remember
+
+1. SQL Query
+
+Two tables were provided: Employees and EmployeeSales.
+Write a query that returns all employees, including those who made no sales.
+Show each employee along with their total sales, making sure employees without sales still appear in the result (using an appropriate join).
+
+2. Recursive Function
+
+Analyze a recursive function that calls itself with different values (for example, f(5) and f(3)), with an if condition controlling the recursion.
+Determine the output and explain how the recursion works.
+
+3. Scheduling / Assignment Problem
+
+Given a table of employees and their availability, assign two employees to a new task starting in September and lasting about three weeks.
+Consider existing assignments, employees who are already busy, vacations, and other constraints.
+The interviewer was interested in the reasoning and approach rather than a single correct answer.
+
+4. Feature Usage / Set Intersection
+
+A product analytics question represented with overlapping circles (similar to a Venn diagram).
+Multiple product features had usage percentages.
+The task was to determine how many users use at least three features by reasoning about the intersections.
+
+5. C++ Memory Management
+
+A code snippet contained a memory leak.
+Identify the problem and explain how to fix it using proper pointer and object lifetime management (constructors/destructors or smart pointers where appropriate).
+
+6. C++ Constructors / Existing Code
+
+You are given a class written by another developer.
+Implement or correct the constructor and explain what happens when objects are created and destroyed.
+Multiple-choice questions followed to test understanding of object construction and destruction.
+Overall Impression
+
+The interview emphasized practical software engineering skills instead of memorization. The questions covered SQL, recursion, logical reasoning, scheduling algorithms, set operations, and C++ memory management. It was a challenging interview that required explaining your thought process as much as producing the correct answer.
+
+
+1 for git logic question 
+1 for listening
+
